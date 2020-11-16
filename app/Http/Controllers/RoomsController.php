@@ -19,24 +19,41 @@ class RoomsController extends Controller
             ], Response::HTTP_FORBIDDEN);
         } else {
 
-            $room = DB::table('rooms')->where('users', $request->userIds)->first();
-            if ($room != null) {
+            $userIds = $request->userIds;
+            $myArray = explode(',', $userIds);
+
+
+            $room1 = DB::table('rooms')->where('users', $userIds)->first();
+            if ($room1 != null) {
+
                 return response()->json([
                     'code' => Response::HTTP_OK, 'message' => "Room Already Exists",
-                    "room" => $room
+                    "room" => $room1
                 ], Response::HTTP_OK);
+
+
             } else {
+                $newUserIds = $myArray[1] . ',' . $myArray[0];
+                $room2 = DB::table('rooms')->where('users', $newUserIds)->first();
+                if ($room2 != null) {
+                    return response()->json([
+                        'code' => Response::HTTP_OK, 'message' => "Room Already Exists",
+                        "room" => $room2
+                    ], Response::HTTP_OK);
+                } else {
+                    $room = new Rooms();
+                    $room->users = $request->userIds;
+                    $room->save();
+                    return response()->json([
+                        'code' => Response::HTTP_OK, 'message' => "Room Created",
+                        "room" => $room
+                    ], Response::HTTP_OK);
+                }
 
 
-                $room = new Rooms();
-                $room->users = $request->userIds;
-                $room->save();
-                return response()->json([
-                    'code' => Response::HTTP_OK, 'message' => "Room Created",
-                    "room" => $room
-                ], Response::HTTP_OK);
             }
 
         }
     }
+
 }

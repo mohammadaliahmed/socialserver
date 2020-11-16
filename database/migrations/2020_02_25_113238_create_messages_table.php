@@ -19,6 +19,7 @@ class CreateMessagesTable extends Migration
             $table->String('messageType');
             $table->String('imageUrl')->nullable();
             $table->String('audioUrl')->nullable();
+            $table->integer('story_id')->nullable();
             $table->String('messageByName');
             $table->integer('messageById');
             $table->integer('roomId');

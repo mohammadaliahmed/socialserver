@@ -101,9 +101,12 @@ class FriendsController extends Controller
     public
     function getMyFriends(Request $request)
     {
-        $friends = DB::select("select * from users where id IN
+        $friend1 = DB::select("select * from users where id IN
                               (Select user_two from friends  WHERE `user_one` =" . $request->id . " and `type`='friend')");
+        $friends2 = DB::select("select * from users where id IN
+                              (Select user_one from friends  WHERE `user_two` =" . $request->id . " and `type`='friend')");
 
+        $friends=array_merge($friend1,$friends2);
         return response()->json([
             'code' => Response::HTTP_OK, 'message' => "false"
             , 'friends' => $friends
@@ -117,7 +120,7 @@ class FriendsController extends Controller
                               (Select user_two from friends  WHERE `user_one` =" . $request->his_id . " and `type`='friend')");
         $hisFriends2 = DB::select("select * from users where id IN
                               (Select user_one from friends  WHERE `user_two` =" . $request->his_id . " and `type`='friend')");
-        $hisFriends = array_merge($hisFriends1 , $hisFriends2);
+        $hisFriends = array_merge($hisFriends1, $hisFriends2);
 
         return response()->json([
             'code' => Response::HTTP_OK, 'message' => "false"

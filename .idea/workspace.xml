@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="" />
+    <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RoomsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoomsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php" afterPath="$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
+    </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
     <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
@@ -101,78 +110,33 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MessageController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding>
-                <marker date="1583740670912" expanded="true" signature="2985:3306" ph="SELECT * fro... messages" />
-                <marker date="1583740670912" expanded="true" signature="3069:3176" ph="Select id fr... rooms" />
-                <marker date="1583740670912" expanded="true" signature="3187:3284" ph="select max(i... messages" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-              <folding>
-                <marker date="1599648530978" expanded="true" signature="2283:2375" ph="Select * fro... users" />
-                <marker date="1599648530978" expanded="true" signature="2283:2392" ph="Select * fro... users" />
-                <marker date="1599648530978" expanded="true" signature="2335:2375" ph="Select user_... likes" />
-                <marker date="1599648530978" expanded="true" signature="3977:4068" ph="Select * fro... posts" />
-                <marker date="1599648530978" expanded="true" signature="4344:4511" ph="select users... users" />
-                <marker date="1599648530978" expanded="true" signature="6048:6215" ph="select users... users" />
-                <marker date="1599648530978" expanded="true" signature="7608:7775" ph="select users... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-              <folding>
-                <marker date="1582784053854" expanded="true" signature="4855:5082" ph="SELECT * FRO... users" />
-                <marker date="1582784053854" expanded="true" signature="5901:6210" ph="SELECT * FRO... users" />
-                <marker date="1582784053854" expanded="true" signature="6847:7048" ph="Select id fr... friends" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>like</find>
-      <find>allStories</find>
       <find>userProfile</find>
       <find>allRoomMessages</find>
+      <find>login</find>
+      <find>getMyFriends</find>
+      <find>allStories</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RoomsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_01_30_071503_create_stories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php" />
       </list>
     </option>
   </component>
@@ -286,10 +250,13 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1YNkGBCUCvKw6jdDe2vDyZ2kky0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -305,36 +272,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
+              <option name="myItemId" value="socialserver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
+              <option name="myItemId" value="socialserver" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
+              <option name="myItemId" value="socialserver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
+              <option name="myItemId" value="socialserver" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -344,11 +300,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
+              <option name="myItemId" value="socialserver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
+              <option name="myItemId" value="socialserver" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -360,63 +316,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="social" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -425,9 +328,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;stor&#9;null&#9;null&#10;likeco&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/web.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;fr&#9;null&#9;null&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;likeco&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/web.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yoolah" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -581,31 +484,33 @@
       <workItem from="1601019632291" duration="1199000" />
       <workItem from="1601481886754" duration="1159000" />
       <workItem from="1601528532546" duration="301000" />
+      <workItem from="1605004199738" duration="12712000" />
+      <workItem from="1605502095034" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14009000" />
+    <option name="totallyTimeSpent" value="27936000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22995462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -688,26 +593,124 @@
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584012784808" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/UserController.php</url>
-          <line>162</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="168" column="51" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="51" />
+          <folding>
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_30_071503_create_stories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding>
+            <marker date="1605162376457" expanded="true" signature="1853:2073" ph="DELETE from " />
+            <marker date="1605162376457" expanded="true" signature="2309:2375" ph="SELECT * FRO... friends" />
+            <marker date="1605162376457" expanded="true" signature="2643:2795" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="2706:2794" ph="Select user_... friends" />
+            <marker date="1605162376457" expanded="true" signature="2831:2983" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="2894:2982" ph="Select user_... friends" />
+            <marker date="1605162376457" expanded="true" signature="3305:3461" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="3368:3460" ph="Select user_... friends" />
+            <marker date="1605162376457" expanded="true" signature="3500:3656" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="3563:3655" ph="Select user_... friends" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="82" column="33" lean-forward="false" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1605003236585" expanded="true" signature="1965:2031" ph="Select * fro... stories" />
+            <marker date="1605003236585" expanded="true" signature="2223:2337" ph="select * fro... views" />
+            <marker date="1605003236585" expanded="true" signature="2274:2316" ph="SELECT id FR... stories" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RoomsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1583740670912" expanded="true" signature="2985:3306" ph="SELECT * fro... messages" />
-            <marker date="1583740670912" expanded="true" signature="3069:3176" ph="Select id fr... rooms" />
-            <marker date="1583740670912" expanded="true" signature="3187:3284" ph="select max(i... messages" />
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding>
+            <marker date="1605008790479" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
+            <marker date="1605008790479" expanded="true" signature="7016:7217" ph="Select id fr... friends" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -724,15 +727,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2125">
           <caret line="132" column="29" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <marker date="1599648530978" expanded="true" signature="2283:2375" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2283:2392" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2335:2375" ph="Select user_... likes" />
-            <marker date="1599648530978" expanded="true" signature="3977:4068" ph="Select * fro... posts" />
-            <marker date="1599648530978" expanded="true" signature="4344:4511" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="6048:6215" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="7608:7775" ph="select users... users" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -741,9 +736,8 @@
         <state relative-caret-position="731">
           <caret line="50" column="53" lean-forward="true" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
           <folding>
-            <marker date="1582784053854" expanded="true" signature="4855:5082" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="5901:6210" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="6847:7048" ph="Select id fr... friends" />
+            <marker date="1605008790479" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
+            <marker date="1605008790479" expanded="true" signature="7016:7217" ph="Select id fr... friends" />
           </folding>
         </state>
       </provider>
@@ -753,9 +747,9 @@
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1583740670912" expanded="true" signature="2985:3306" ph="SELECT * fro... messages" />
-            <marker date="1583740670912" expanded="true" signature="3069:3176" ph="Select id fr... rooms" />
-            <marker date="1583740670912" expanded="true" signature="3187:3284" ph="select max(i... messages" />
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -773,9 +767,8 @@
         <state relative-caret-position="935">
           <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <marker date="1582784053854" expanded="true" signature="4855:5082" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="5901:6210" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="6847:7048" ph="Select id fr... friends" />
+            <marker date="1605008790479" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
+            <marker date="1605008790479" expanded="true" signature="7016:7217" ph="Select id fr... friends" />
           </folding>
         </state>
       </provider>
@@ -785,9 +778,9 @@
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1583740670912" expanded="true" signature="2985:3306" ph="SELECT * fro... messages" />
-            <marker date="1583740670912" expanded="true" signature="3069:3176" ph="Select id fr... rooms" />
-            <marker date="1583740670912" expanded="true" signature="3187:3284" ph="select max(i... messages" />
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -805,9 +798,8 @@
         <state relative-caret-position="935">
           <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <marker date="1582784053854" expanded="true" signature="4855:5082" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="5901:6210" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="6847:7048" ph="Select id fr... friends" />
+            <marker date="1605008790479" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
+            <marker date="1605008790479" expanded="true" signature="7016:7217" ph="Select id fr... friends" />
           </folding>
         </state>
       </provider>
@@ -817,9 +809,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1583740670912" expanded="true" signature="2985:3306" ph="SELECT * fro... messages" />
-            <marker date="1583740670912" expanded="true" signature="3069:3176" ph="Select id fr... rooms" />
-            <marker date="1583740670912" expanded="true" signature="3187:3284" ph="select max(i... messages" />
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -828,15 +820,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding>
-            <marker date="1599648530978" expanded="true" signature="2283:2375" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2283:2392" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2335:2375" ph="Select user_... likes" />
-            <marker date="1599648530978" expanded="true" signature="3977:4068" ph="Select * fro... posts" />
-            <marker date="1599648530978" expanded="true" signature="4344:4511" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="6048:6215" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="7608:7775" ph="select users... users" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -853,9 +837,9 @@
         <state relative-caret-position="1105">
           <caret line="71" column="57" lean-forward="false" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
           <folding>
-            <marker date="1582537110452" expanded="true" signature="1965:2031" ph="Select * fro... stories" />
-            <marker date="1582537110452" expanded="true" signature="2223:2337" ph="select * fro... views" />
-            <marker date="1582537110452" expanded="true" signature="2274:2316" ph="SELECT id FR... stories" />
+            <marker date="1605003236585" expanded="true" signature="1965:2031" ph="Select * fro... stories" />
+            <marker date="1605003236585" expanded="true" signature="2223:2337" ph="select * fro... views" />
+            <marker date="1605003236585" expanded="true" signature="2274:2316" ph="SELECT id FR... stories" />
           </folding>
         </state>
       </provider>
@@ -864,15 +848,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1599648530978" expanded="true" signature="2283:2375" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2283:2392" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2335:2375" ph="Select user_... likes" />
-            <marker date="1599648530978" expanded="true" signature="3977:4068" ph="Select * fro... posts" />
-            <marker date="1599648530978" expanded="true" signature="4344:4511" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="6048:6215" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="7608:7775" ph="select users... users" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -892,18 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoriesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="71" column="57" lean-forward="false" selection-start-line="71" selection-start-column="57" selection-end-line="71" selection-end-column="57" />
-          <folding>
-            <marker date="1582537110452" expanded="true" signature="1965:2031" ph="Select * fro... stories" />
-            <marker date="1582537110452" expanded="true" signature="2223:2337" ph="select * fro... views" />
-            <marker date="1582537110452" expanded="true" signature="2274:2316" ph="SELECT id FR... stories" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_25_120543_create_rooms_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -911,65 +875,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RoomsController.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="391">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Constants.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <marker date="1583740670912" expanded="true" signature="2985:3306" ph="SELECT * fro... messages" />
-            <marker date="1583740670912" expanded="true" signature="3069:3176" ph="Select id fr... rooms" />
-            <marker date="1583740670912" expanded="true" signature="3187:3284" ph="select max(i... messages" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding>
-            <marker date="1582784053854" expanded="true" signature="4855:5082" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="5901:6210" ph="SELECT * FRO... users" />
-            <marker date="1582784053854" expanded="true" signature="6847:7048" ph="Select id fr... friends" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="51" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="97" column="37" lean-forward="true" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
           <folding>
-            <marker date="1599648530978" expanded="true" signature="2283:2375" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2283:2392" ph="Select * fro... users" />
-            <marker date="1599648530978" expanded="true" signature="2335:2375" ph="Select user_... likes" />
-            <marker date="1599648530978" expanded="true" signature="3977:4068" ph="Select * fro... posts" />
-            <marker date="1599648530978" expanded="true" signature="4344:4511" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="6048:6215" ph="select users... users" />
-            <marker date="1599648530978" expanded="true" signature="7608:7775" ph="select users... users" />
+            <marker date="1605008790479" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
+            <marker date="1605008790479" expanded="true" signature="7016:7217" ph="Select id fr... friends" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="112" column="30" lean-forward="true" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding>
+            <marker date="1605162376457" expanded="true" signature="1853:2073" ph="DELETE from " />
+            <marker date="1605162376457" expanded="true" signature="2309:2375" ph="SELECT * FRO... friends" />
+            <marker date="1605162376457" expanded="true" signature="2643:2795" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="2706:2794" ph="Select user_... friends" />
+            <marker date="1605162376457" expanded="true" signature="2831:2983" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="2894:2982" ph="Select user_... friends" />
+            <marker date="1605162376457" expanded="true" signature="3305:3461" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="3368:3460" ph="Select user_... friends" />
+            <marker date="1605162376457" expanded="true" signature="3500:3656" ph="select * fro... users" />
+            <marker date="1605162376457" expanded="true" signature="3563:3655" ph="Select user_... friends" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1605003236585" expanded="true" signature="1965:2031" ph="Select * fro... stories" />
+            <marker date="1605003236585" expanded="true" signature="2223:2337" ph="select * fro... views" />
+            <marker date="1605003236585" expanded="true" signature="2274:2316" ph="SELECT id FR... stories" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="1360">
+          <caret line="82" column="33" lean-forward="false" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_01_30_071503_create_stories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2754">
+          <caret line="168" column="51" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="51" />
+          <folding>
+            <marker date="1605164659927" expanded="true" signature="4845:5166" ph="SELECT * fro... messages" />
+            <marker date="1605164659927" expanded="true" signature="4929:5036" ph="Select id fr... rooms" />
+            <marker date="1605164659927" expanded="true" signature="5047:5144" ph="select max(i... messages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RoomsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding />
         </state>
       </provider>

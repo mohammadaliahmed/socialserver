@@ -134,25 +134,33 @@ class UserController extends Controller
         if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
             return response()->json([
                 'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
-            ], Response::HTTP_OK);
+            ], Response::HTTP_FORBIDDEN);
         } else {
 
-            $user = DB::select('SELECT * FROM `users` 
-            WHERE ( `email` like "' . $request->username . '" or username like "' . $request->username . '"  or phone like "' . $request->username . '") and password like "' . md5($request->password) . '"');
+            $user = DB::table('users')->where('email', $request->email)->first();
 
-            if ($user == null) {
-                return response()->json([
-                    'code' => 302, 'message' => 'Wrong credentials',
-                ], Response::HTTP_OK);
-            } else {
 
+
+            if ($user) {
 
                 return response()->json([
-                    'code' => 200, 'message' => "false", 'user' => $user[0]
+                    'code' => 200, 'message' => "false", 'user' => $user
                     ,
                 ], Response::HTTP_OK);
-            }
+            } else {
+                $user = new User();
+                $user->name = $request->name;
+                $user->email = $request->email;
+                $user->password = md5($request->password);
+                $user->picUrl = $request->picUrl;
+                $user->thumbnailUrl = $request->picUrl;
+                $user->save();
+                return response()->json([
+                    'code' => 200, 'message' => "false", 'user' => $user
+                    ,
+                ], Response::HTTP_OK);
 
+            }
         }
 
 
@@ -168,7 +176,7 @@ class UserController extends Controller
             $users = DB::select("SELECT * FROM `users` WHERE (name 
                                   like '%" . $request->search . "%'
                                    or email like '%" . $request->search . "%' 
-                                  or username like '%" . $request->search . "%') and id !=" . $request->id ." order by name asc");
+                                  or username like '%" . $request->search . "%') and id !=" . $request->id . " order by name asc");
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "false"
                 , 'users' => $users

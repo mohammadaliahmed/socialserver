@@ -52,6 +52,61 @@ class MessageController extends Controller
         }
     }
 
+    public function sendStoryMessage(Request $request)
+    {
+        if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
+            return response()->json([
+                'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
+            ], Response::HTTP_OK);
+        } else {
+
+
+            $roomId = 0;
+            $userIds = $request->userIds;
+            $myArray = explode(',', $userIds);
+
+
+            $room1 = DB::table('rooms')->where('users', $userIds)->first();
+            if ($room1 != null) {
+                $roomId = $room1->id;
+
+            } else {
+                $newUserIds = $myArray[1] . ',' . $myArray[0];
+                $room2 = DB::table('rooms')->where('users', $newUserIds)->first();
+                if ($room2 != null) {
+                    $roomId = $room2->id;
+                }
+
+
+            }
+
+            $message = new Messages();
+            $message->messageText = $request->messageText;
+            $message->messageType = $request->messageType;
+            $message->messageByName = $request->messageByName;
+            $message->imageUrl = $request->imageUrl;
+            $message->audioUrl = $request->audioUrl;
+            $message->messageById = $request->messageById;
+
+            $message->roomId = $roomId;
+            $message->time = $request->time;
+            $message->story_id = $request->storyId;
+            $message->save();
+            $user = User::find($request->hisUserId);
+
+            $this->sendPushNotification($user->fcmKey,
+                "New Message from " . $request->messageByName,
+                $message->messageText, $roomId);
+
+
+            return response()->json([
+                'code' => Response::HTTP_OK, 'message' => "false"
+
+                ,
+            ], Response::HTTP_OK);
+        }
+    }
+
     public function allRoomMessages(Request $request)
     {
         if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {

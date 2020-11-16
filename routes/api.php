@@ -80,6 +80,7 @@ Route::group(['prefix' => 'message'], function () {
     Route::post('createMessage', 'MessageController@createMessage');
     Route::post('allRoomMessages', 'MessageController@allRoomMessages');
     Route::post('userMessages', 'MessageController@userMessages');
+    Route::post('sendStoryMessage', 'MessageController@sendStoryMessage');
 });
 
 
