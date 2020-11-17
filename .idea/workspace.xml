@@ -124,30 +124,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
               <folding>
-                <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-                <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-                <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-                <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-                <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-                <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-                <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-                <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+                <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+                <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+                <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+                <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+                <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+                <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+                <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+                <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="493">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#33#71#0#PHP" expanded="true" />
               </folding>
@@ -199,8 +199,8 @@
         <option value="$PROJECT_DIR$/app/SendNotification.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
       </list>
     </option>
   </component>
@@ -546,15 +546,16 @@
       <workItem from="1601528532546" duration="301000" />
       <workItem from="1605004199738" duration="12712000" />
       <workItem from="1605502095034" duration="7211000" />
-      <workItem from="1605599542028" duration="3132000" />
+      <workItem from="1605599542028" duration="3948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37064000" />
+    <option name="totallyTimeSpent" value="37880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1705757" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -564,7 +565,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -671,14 +672,14 @@
         <state relative-caret-position="2788">
           <caret line="171" column="0" lean-forward="true" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
           <folding>
-            <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-            <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-            <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+            <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+            <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
           </folding>
         </state>
       </provider>
@@ -767,14 +768,14 @@
         <state relative-caret-position="2125">
           <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-            <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-            <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+            <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+            <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
           </folding>
         </state>
       </provider>
@@ -823,14 +824,14 @@
         <state relative-caret-position="2125">
           <caret line="132" column="29" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding>
-            <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-            <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-            <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+            <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+            <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
           </folding>
         </state>
       </provider>
@@ -925,14 +926,14 @@
         <state relative-caret-position="2057">
           <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
-            <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-            <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-            <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+            <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+            <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
           </folding>
         </state>
       </provider>
@@ -962,14 +963,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-            <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-            <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+            <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+            <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
           </folding>
         </state>
       </provider>
@@ -1115,29 +1116,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
-            <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
-            <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
-            <marker date="1605607548568" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="4353:4520" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
-            <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
-            <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+            <element signature="e#33#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="476">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
+            <marker date="1605609851077" expanded="true" signature="2285:2398" ph="Select * fro... users" />
+            <marker date="1605609851077" expanded="true" signature="2337:2377" ph="Select user_... likes" />
+            <marker date="1605609851077" expanded="true" signature="3986:4077" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="4353:4520" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="5677:5706" ph="Select * fro... posts" />
+            <marker date="1605609851077" expanded="true" signature="6002:6169" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="7706:7873" ph="select users... users" />
+            <marker date="1605609851077" expanded="true" signature="9266:9433" ph="select users... users" />
           </folding>
         </state>
       </provider>

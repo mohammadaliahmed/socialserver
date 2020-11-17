@@ -23,6 +23,7 @@ class PostController extends Controller
             ], Response::HTTP_OK);
         } else {
 
+            $milliseconds = round(microtime(true) * 1000);
             $post = new Posts();
             $post->user_id = $request->id;
             $post->images_url = $request->images_url;
@@ -31,7 +32,7 @@ class PostController extends Controller
             $post->post_type = $request->post_type;
             $post->deleted = $request->deleted;
             $post->random_id = $request->random_id;
-            $post->time = $request->time;
+            $post->time = $milliseconds;
 
             $post->save();
             return response()->json([
