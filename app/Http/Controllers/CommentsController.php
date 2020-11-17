@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Comments;
 use App\Constants;
 use App\Posts;
+use App\SendNotification;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

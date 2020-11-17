@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Friends;
+use App\SendNotification;
+use App\User;
 use function array_merge;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -34,6 +36,19 @@ class FriendsController extends Controller
             $friend->user_two = $request->his_id;
             $friend->type = 'request';
             $friend->save();
+
+            $user1 = User::find($request->id);
+            $user2 = User::find($request->his_id);
+
+
+            $notification = new SendNotification();
+            $notification->sendPushNotification($user2->fcmKey,
+                'New friend request',
+                $user1->name . ' sent a friend request',
+                $request->his_id,
+                'request'
+            );
+
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "Request Sent"
                 ,
@@ -106,7 +121,7 @@ class FriendsController extends Controller
         $friends2 = DB::select("select * from users where id IN
                               (Select user_one from friends  WHERE `user_two` =" . $request->id . " and `type`='friend')");
 
-        $friends=array_merge($friend1,$friends2);
+        $friends = array_merge($friend1, $friends2);
         return response()->json([
             'code' => Response::HTTP_OK, 'message' => "false"
             , 'friends' => $friends

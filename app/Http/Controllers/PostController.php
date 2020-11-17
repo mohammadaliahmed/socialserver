@@ -69,11 +69,11 @@ class PostController extends Controller
             ], Response::HTTP_OK);
         } else {
 
-            $users=DB::select('Select * from users where id in 
-                  (Select user_id from likes where post_id='.$request->id.')');
+            $users = DB::select('Select * from users where id in 
+                  (Select user_id from likes where post_id=' . $request->id . ')');
 
             return response()->json([
-                'code' => Response::HTTP_OK, 'message' => "false",'users'=>$users
+                'code' => Response::HTTP_OK, 'message' => "false", 'users' => $users
                 ,
             ], Response::HTTP_OK);
         }
@@ -120,6 +120,46 @@ class PostController extends Controller
             $posts = DB::select("Select * from posts where user_id in (" . $request->friends . ") order by id desc limit 100");
             foreach ($posts as $post) {
                 $user = User::find($post->user_id);
+                $post->user = $user;
+                $commentCount = DB::table('comments')->where('post_id', $post->id)->get()->count();
+                $lastComment = DB::select("select users.name, comments.text from users,
+                                            comments where users.id=comments.user_id and post_id=" . $post->id . " limit 1");
+//                $lastComment = DB::table('comments')
+//                    ->where('post_id', $post->id)->limit(1)->get();
+
+                $likesCount = DB::table('likes')->where('post_id', $post->id)->count();
+                $post->likesCount = $likesCount;
+
+                $post->commentsCount = $commentCount;
+
+                $post->lastComment = $lastComment;
+
+
+            }
+
+            $likes = DB::table('likes')->where('user_id', $request->id)
+                ->orderBy('id', 'desc')->limit(50)->get()->pluck('post_id');
+            return response()->json([
+                'code' => Response::HTTP_OK, 'message' => "false", 'posts' => $posts
+                , 'likes' => $likes
+
+                ,
+            ], Response::HTTP_OK);
+        }
+
+    }
+
+    public function viewPost(Request $request)
+    {
+        if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
+            return response()->json([
+                'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
+            ], Response::HTTP_OK);
+        } else {
+
+            $posts = DB::select("Select * from posts where id=" . $request->post_id);
+            foreach ($posts as $post) {
+                $user = User::find($post->git);
                 $post->user = $user;
                 $commentCount = DB::table('comments')->where('post_id', $post->id)->get()->count();
                 $lastComment = DB::select("select users.name, comments.text from users,

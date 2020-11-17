@@ -33,10 +33,10 @@ Route::group(['prefix' => 'user'], function () {
 Route::group(['prefix' => 'post'], function () {
 
     Route::post('addPost', 'PostController@addPost');
+    Route::post('viewPost', 'PostController@viewPost');
     Route::post('getUsersByPostLikes', 'PostController@getUsersByPostLikes');
     Route::post('likeUnlikePost', 'PostController@likeUnlikePost');
     Route::post('allPosts', 'PostController@allPosts');
-    Route::post('ViewPost', 'PostController@ViewPost');
     Route::post('deletePost', 'PostController@deletePost');
     Route::post('updatePost', 'PostController@updatePost');
     Route::post('getUserPosts', 'PostController@getUserPosts');
