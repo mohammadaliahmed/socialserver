@@ -22,12 +22,12 @@ class CommentsController extends Controller
                 'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
             ], Response::HTTP_OK);
         } else {
-
+            $milliseconds = round(microtime(true) * 1000);
             $comments = new Comments();
             $comments->text = $request->text;
             $comments->user_id = $request->id;
             $comments->post_id = $request->post_id;
-            $comments->time = $request->time;
+            $comments->time =$milliseconds;
             $comments->save();
             $user = User::find($comments->user_id);
             $comments->user = $user;

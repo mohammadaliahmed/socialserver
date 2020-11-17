@@ -20,6 +20,7 @@ class MessageController extends Controller
                 'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
             ], Response::HTTP_OK);
         } else {
+            $milliseconds = round(microtime(true) * 1000);
 
             $message = new Messages();
             $message->messageText = $request->messageText;
@@ -29,7 +30,7 @@ class MessageController extends Controller
             $message->audioUrl = $request->audioUrl;
             $message->messageById = $request->messageById;
             $message->roomId = $request->roomId;
-            $message->time = $request->time;
+            $message->time = $milliseconds;
             $message->save();
 
             $chatRoom = Rooms::find($request->roomId);
