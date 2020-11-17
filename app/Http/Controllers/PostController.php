@@ -159,7 +159,7 @@ class PostController extends Controller
 
             $posts = DB::select("Select * from posts where id=" . $request->post_id);
             foreach ($posts as $post) {
-                $user = User::find($post->git);
+                $user = User::find($post->user_id);
                 $post->user = $user;
                 $commentCount = DB::table('comments')->where('post_id', $post->id)->get()->count();
                 $lastComment = DB::select("select users.name, comments.text from users,

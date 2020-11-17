@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="" />
+    <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
     <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
@@ -122,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="161" column="45" lean-forward="false" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
+            <state relative-caret-position="324">
+              <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
               <folding>
                 <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
                 <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
@@ -136,6 +138,18 @@
                 <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
                 <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
                 <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="e#33#71#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,6 +200,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -373,7 +388,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/web.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="appserv&#9;null&#9;null&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/web.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -531,12 +546,12 @@
       <workItem from="1601528532546" duration="301000" />
       <workItem from="1605004199738" duration="12712000" />
       <workItem from="1605502095034" duration="7211000" />
-      <workItem from="1605599542028" duration="2349000" />
+      <workItem from="1605599542028" duration="3132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36281000" />
+    <option name="totallyTimeSpent" value="37064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1102,8 +1117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="161" column="45" lean-forward="false" selection-start-line="161" selection-start-column="45" selection-end-line="161" selection-end-column="45" />
+        <state relative-caret-position="324">
+          <caret line="152" column="5" lean-forward="true" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
           <folding>
             <marker date="1605607548568" expanded="true" signature="2285:2398" ph="Select * fro... users" />
             <marker date="1605607548568" expanded="true" signature="2337:2377" ph="Select user_... likes" />
@@ -1113,6 +1128,16 @@
             <marker date="1605607548568" expanded="true" signature="5998:6165" ph="select users... users" />
             <marker date="1605607548568" expanded="true" signature="7702:7869" ph="select users... users" />
             <marker date="1605607548568" expanded="true" signature="9262:9429" ph="select users... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="e#33#71#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
