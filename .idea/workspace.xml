@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/privacy.html" afterPath="$PROJECT_DIR$/resources/views/privacy.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
@@ -118,11 +120,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/privacy.html">
+      <file leaf-file-name="privacy.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/privacy.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="109" column="6" lean-forward="false" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -181,6 +193,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" />
         <option value="$PROJECT_DIR$/resources/views/privacy.html" />
+        <option value="$PROJECT_DIR$/resources/views/privacy.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -440,7 +454,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="mai&#9;null&#9;null&#10;mess&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;appserv&#9;null&#9;null&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/web.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/web.php&#10;mai&#9;null&#9;null&#10;mess&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;appserv&#9;null&#9;null&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -599,12 +613,12 @@
       <workItem from="1601528532546" duration="301000" />
       <workItem from="1605004199738" duration="12712000" />
       <workItem from="1605502095034" duration="7211000" />
-      <workItem from="1605599542028" duration="6915000" />
+      <workItem from="1605599542028" duration="7017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40847000" />
+    <option name="totallyTimeSpent" value="40949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1220,10 +1234,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/privacy.html">
+    <entry file="file://$PROJECT_DIR$/node_modules/laravel-mix/src/builder/WebpackConfig.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="6" lean-forward="false" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        <state relative-caret-position="136">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/privacy.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
