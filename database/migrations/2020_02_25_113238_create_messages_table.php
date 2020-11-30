@@ -15,7 +15,7 @@ class CreateMessagesTable extends Migration
     {
         Schema::create('messages', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->String('messageText')->nullable();
+            $table->text('messageText')->nullable();
             $table->String('messageType');
             $table->String('imageUrl')->nullable();
             $table->String('audioUrl')->nullable();

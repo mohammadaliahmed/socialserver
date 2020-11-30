@@ -61,7 +61,10 @@ class StoriesController extends Controller
 ////                ->where('user_id', $request->id)->orderBy('id', 'desc')
 //                ->orderBy('id', 'desc')
 //                ->get();
-            $stories = DB::select("Select * from stories where user_id in (" . $request->friends . ")");
+            $milliseconds = round(microtime(true) * 1000);
+            $stories = DB::select("Select * from stories where user_id in (" . $request->friends . ") 
+                                        and  time > (".$milliseconds." - 84600000)
+                                        order by id asc");
 
 
             foreach ($stories as $story) {
@@ -69,7 +72,7 @@ class StoriesController extends Controller
                 $story->user = $user;
             }
             $storyViews = DB::select("select * from views where story_id in
-            (SELECT id FROM `stories` WHERE `user_id` =" . $request->id . ")");
+            (SELECT id FROM `stories` WHERE `user_id` =" . $request->id . " and time > (".$milliseconds." - 84600000))");
             foreach ($storyViews as $storyView) {
                 $user = User::find($storyView->user_id);
                 $storyView->user = $user;

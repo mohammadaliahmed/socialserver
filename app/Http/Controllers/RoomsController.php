@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Constants;
 use App\Rooms;
+use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
@@ -52,6 +53,33 @@ class RoomsController extends Controller
 
 
             }
+
+        }
+    }
+
+    public function getOtherUserFromRoomId(Request $request)
+    {
+        if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
+            return response()->json([
+                'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
+            ], Response::HTTP_FORBIDDEN);
+        } else {
+
+
+            $room = Rooms::find($request->id);
+
+            $userIds = $room->users;
+            $myArray = explode(',', $userIds);
+
+            if ($myArray[0] == $request->myId) {
+                $user = User::find($myArray[1]);
+            } else {
+                $user = User::find($myArray[0]);
+            }
+            return response()->json([
+                'code' => Response::HTTP_OK, 'message' => "false",
+                "user" => $user
+            ], Response::HTTP_OK);
 
         }
     }

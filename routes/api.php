@@ -74,6 +74,7 @@ Route::group(['prefix' => 'friends'], function () {
 Route::group(['prefix' => 'room'], function () {
 
     Route::post('createRoom', 'RoomsController@createRoom');
+    Route::post('getOtherUserFromRoomId', 'RoomsController@getOtherUserFromRoomId');
 });
 Route::group(['prefix' => 'message'], function () {
 

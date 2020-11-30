@@ -76,11 +76,18 @@ class MessageController extends Controller
                 $room2 = DB::table('rooms')->where('users', $newUserIds)->first();
                 if ($room2 != null) {
                     $roomId = $room2->id;
+
+                } else {
+                    $room = new Rooms();
+                    $room->users = $request->userIds;
+                    $room->save();
+                    $roomId = $room->id;
                 }
 
 
             }
 
+            $milliseconds = round(microtime(true) * 1000);
             $message = new Messages();
             $message->messageText = $request->messageText;
             $message->messageType = $request->messageType;
@@ -90,7 +97,7 @@ class MessageController extends Controller
             $message->messageById = $request->messageById;
 
             $message->roomId = $roomId;
-            $message->time = $request->time;
+            $message->time = $milliseconds;
             $message->story_id = $request->storyId;
             $message->save();
             $user = User::find($request->hisUserId);
