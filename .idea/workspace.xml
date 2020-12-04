@@ -4,10 +4,6 @@
     <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/RoomsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/RoomsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StoriesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StoriesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php" afterPath="$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
@@ -113,18 +109,32 @@
         <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoomsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RoomsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
+            <state relative-caret-position="1275">
               <caret line="80" column="31" lean-forward="false" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+                <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+                <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +142,7 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
+            <state relative-caret-position="1258">
               <caret line="76" column="81" lean-forward="false" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
               <folding />
             </state>
@@ -183,10 +193,10 @@
         <option value="$PROJECT_DIR$/resources/views/privacy.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StoriesController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/RoomsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MessageController.php" />
       </list>
     </option>
   </component>
@@ -322,7 +332,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,7 +407,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -406,7 +416,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/database/migrations/2020_02_25_113238_create_messages_table.php&#10;messaco&#9;null&#9;null&#10;roomcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;storie&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/web.php&#10;mai&#9;null&#9;null&#10;mess&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;appserv&#9;null&#9;null&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Messages.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="messa&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/database/migrations/2020_02_25_113238_create_messages_table.php&#10;messaco&#9;null&#9;null&#10;roomcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;storie&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/web.php&#10;mai&#9;null&#9;null&#10;mess&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;appserv&#9;null&#9;null&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/PostController.php&#10;userc&#9;null&#9;null&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/social/.env&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -567,26 +577,28 @@
       <workItem from="1605502095034" duration="7211000" />
       <workItem from="1605599542028" duration="8336000" />
       <workItem from="1606287067391" duration="32000" />
-      <workItem from="1606712813993" duration="6895000" />
+      <workItem from="1606712813993" duration="7500000" />
+      <workItem from="1606821180295" duration="62000" />
+      <workItem from="1607061989766" duration="193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49195000" />
+    <option name="totallyTimeSpent" value="50055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17697228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -595,6 +607,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -723,9 +736,9 @@
         <state relative-caret-position="2754">
           <caret line="168" column="51" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="51" />
           <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -790,9 +803,9 @@
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -837,9 +850,9 @@
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -884,9 +897,9 @@
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -914,9 +927,9 @@
         <state relative-caret-position="221">
           <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -944,9 +957,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
           </folding>
         </state>
       </provider>
@@ -1069,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,29 +1189,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="98" column="39" lean-forward="true" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
-          <folding>
-            <marker date="1606720686360" expanded="true" signature="5158:5479" ph="SELECT * fro... messages" />
-            <marker date="1606720686360" expanded="true" signature="5242:5349" ph="Select id fr... rooms" />
-            <marker date="1606720686360" expanded="true" signature="5360:5457" ph="select max(i... messages" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_25_113238_create_messages_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
+        <state relative-caret-position="1258">
           <caret line="76" column="81" lean-forward="false" selection-start-line="76" selection-start-column="81" selection-end-line="76" selection-end-column="81" />
           <folding />
         </state>
@@ -1208,9 +1207,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RoomsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
+        <state relative-caret-position="1275">
           <caret line="80" column="31" lean-forward="false" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <marker date="1607062160511" expanded="true" signature="4965:5286" ph="SELECT * fro... messages" />
+            <marker date="1607062160511" expanded="true" signature="5049:5156" ph="Select id fr... rooms" />
+            <marker date="1607062160511" expanded="true" signature="5167:5264" ph="select max(i... messages" />
+          </folding>
         </state>
       </provider>
     </entry>

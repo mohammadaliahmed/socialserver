@@ -33,11 +33,7 @@ class MessageController extends Controller
             $message->time = $milliseconds;
             $message->save();
 
-            $chatRoom = Rooms::find($request->roomId);
-            $users = $chatRoom->users;
-            $abc = str_replace($request->messageById, '', $users);
-            $abc = str_replace(',', '', $abc);
-            $user = User::find($abc);
+           $user=User::find($request->hisUserId);
 
             $this->sendPushNotification($user->fcmKey,
                 "New Message from " . $request->messageByName,
