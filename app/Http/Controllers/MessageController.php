@@ -33,7 +33,7 @@ class MessageController extends Controller
             $message->time = $milliseconds;
             $message->save();
 
-           $user=User::find($request->hisUserId);
+            $user = User::find($request->hisUserId);
 
             $this->sendPushNotification($user->fcmKey,
                 "New Message from " . $request->messageByName,
@@ -148,11 +148,15 @@ class MessageController extends Controller
                 $chatRoom = Rooms::find($item->roomId);
                 $users = $chatRoom->users;
 
-                $abc = str_replace($request->id, '', $users);
-                $abc = str_replace(',', '', $abc);
-//            return $abc;
+                $abc = explode(',', $users);
+                if ($abc[0] == $request->id) {
+                    $userId = $abc[1];
+                } else {
+                    $userId = $abc[0];
+                }
 
-                $us = User::find($abc);
+
+                $us = User::find($userId);
 
                 $item->userName = $us->name;
                 $item->thumbnailUrl = $us->thumbnailUrl;
