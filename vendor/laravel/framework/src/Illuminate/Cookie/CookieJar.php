@@ -118,7 +118,7 @@ class CookieJar implements JarContract
      *
      * @param  string  $key
      * @param  mixed  $default
-     * @param  string  $path
+     * @param  string|null  $path
      * @return \Symfony\Component\HttpFoundation\Cookie
      */
     public function queued($key, $default = null, $path = null)
@@ -143,7 +143,7 @@ class CookieJar implements JarContract
         if (head($parameters) instanceof Cookie) {
             $cookie = head($parameters);
         } else {
-            $cookie = call_user_func_array([$this, 'make'], $parameters);
+            $cookie = $this->make(...array_values($parameters));
         }
 
         if (! isset($this->queued[$cookie->getName()])) {

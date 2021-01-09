@@ -17,3 +17,9 @@ Route::get('/', function () {
 Route::get('/privacy', function () {
     return view('privacy');
 });
+
+
+Route::get('/admin', 'AdminController@admin');
+
+Route::get('/deletepicture/{id}', 'AdminController@deletepicture');
+

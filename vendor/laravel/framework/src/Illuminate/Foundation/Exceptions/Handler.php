@@ -19,6 +19,7 @@ use Illuminate\Session\TokenMismatchException;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\View;
+use Illuminate\Support\Reflector;
 use Illuminate\Support\ViewErrorBag;
 use Illuminate\Validation\ValidationException;
 use Psr\Log\LoggerInterface;
@@ -103,7 +104,7 @@ class Handler implements ExceptionHandlerContract
             return;
         }
 
-        if (is_callable($reportCallable = [$e, 'report'])) {
+        if (Reflector::isCallable($reportCallable = [$e, 'report'])) {
             return $this->container->call($reportCallable);
         }
 
@@ -321,7 +322,7 @@ class Handler implements ExceptionHandlerContract
      */
     protected function convertExceptionToResponse(Exception $e)
     {
-        return SymfonyResponse::create(
+        return new SymfonyResponse(
             $this->renderExceptionContent($e),
             $this->isHttpException($e) ? $e->getStatusCode() : 500,
             $this->isHttpException($e) ? $e->getHeaders() : []
@@ -400,7 +401,7 @@ class Handler implements ExceptionHandlerContract
     {
         $this->registerErrorViewPaths();
 
-        if (view()->exists($view = "errors::{$e->getStatusCode()}")) {
+        if (view()->exists($view = $this->getHttpExceptionView($e))) {
             return response()->view($view, [
                 'errors' => new ViewErrorBag,
                 'exception' => $e,
@@ -422,6 +423,17 @@ class Handler implements ExceptionHandlerContract
         View::replaceNamespace('errors', $paths->map(function ($path) {
             return "{$path}/errors";
         })->push(__DIR__.'/views')->all());
+    }
+
+    /**
+     * Get the view used to render HTTP exceptions.
+     *
+     * @param  \Symfony\Component\HttpKernel\Exception\HttpExceptionInterface  $e
+     * @return string
+     */
+    protected function getHttpExceptionView(HttpExceptionInterface $e)
+    {
+        return "errors::{$e->getStatusCode()}";
     }
 
     /**
