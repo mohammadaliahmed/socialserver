@@ -192,16 +192,41 @@ class UserController extends Controller
             ], Response::HTTP_OK);
         } else {
 
-            $use = User::find($request->id);
+            $use = User::find($request->his_id);
 
             $friendCount = DB::select("Select id from friends where
                                             (user_one=" . $request->id . " or user_two =" . $request->id . ") 
                                             and type='friend' ");
             $friendCount = count($friendCount);
+
+
+            $userr = User::find($request->id);
+
+
+            $requestsSent = DB::table('friends')
+                ->where('user_one', $request->id)
+                ->where('type', 'request')
+                ->get();
+            $requestsReceived = DB::table('friends')
+                ->where('user_two', $request->id)
+                ->where('type', 'request')
+                ->get();
+
+            $friends1 = DB::table('friends')->where('user_one', $request->id)->where('type', 'friend')->get();
+            $friends2 = DB::table('friends')->where('user_two', $request->id)->where('type', 'friend')->get();
+            $friends = array_merge($friends1->pluck('user_two')->toArray(), $friends2->pluck('user_one')->toArray());
+            $userr->friendsCount = count($friends);
+            $userr->requestsSent = $requestsSent->pluck('user_two');
+            $userr->friends = $friends;
+            $userr->requestsReceived = $requestsReceived->pluck('user_one');
+
+
+
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "false"
                 , 'friendCount' => $friendCount
                 , 'user' => $use
+                , 'my_user' => $userr
             ], Response::HTTP_OK);
         }
 

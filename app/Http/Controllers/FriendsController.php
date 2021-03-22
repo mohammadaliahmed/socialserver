@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Friends;
+use App\Notifications;
 use App\SendNotification;
 use App\User;
 use function array_merge;
@@ -40,12 +41,21 @@ class FriendsController extends Controller
             $user1 = User::find($request->id);
             $user2 = User::find($request->his_id);
 
+            $notifications = new Notifications();
+            $notifications->title = $user1->name . " sent you a friend request.";
+            $notifications->message = "Click to view";
+            $notifications->my_id = $request->his_id;
+            $notifications->his_id = $request->id;
+            $notifications->type = "request";
+            $notifications->time = round(microtime(true) * 1000);
+            $notifications->save();
+
 
             $notification = new SendNotification();
             $notification->sendPushNotification($user2->fcmKey,
                 'New friend request',
                 $user1->name . ' sent a friend request',
-                $request->his_id,
+                $request->id,
                 'request'
             );
 
@@ -69,6 +79,29 @@ class FriendsController extends Controller
             $data = Friends::find($data->id);
             $data->type = 'friend';
             $data->update();
+
+            $me = User::find($request->id);
+            $him = User::find($request->his_id);
+
+            $notifications = new Notifications();
+            $notifications->title = $me->name . " accepted your friend request";
+            $notifications->message = "Click to view";
+            $notifications->my_id = $request->his_id;
+            $notifications->his_id = $request->id;
+            $notifications->type = "request";
+            $notifications->time = round(microtime(true) * 1000);
+
+            $notifications->save();
+
+            $notification = new SendNotification();
+
+            $notification->sendPushNotification($him->fcmKey,
+                'Friend request accepted',
+                'Click to view',
+                $request->id,
+                'request_accepted'
+            );
+
 
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "Accepted"

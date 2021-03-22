@@ -83,6 +83,11 @@ Route::group(['prefix' => 'message'], function () {
     Route::post('userMessages', 'MessageController@userMessages');
     Route::post('sendStoryMessage', 'MessageController@sendStoryMessage');
 });
+Route::group(['prefix' => 'notification'], function () {
+
+    Route::post('getMyNotifications', 'NotificationsController@getMyNotifications');
+
+});
 
 
 Route::post('uploadFile', 'FileUploadController@uploadFile');

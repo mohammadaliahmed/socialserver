@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Constants;
 use App\Likes;
+use App\Notifications;
 use App\Posts;
 use App\User;
 use Illuminate\Http\Request;
@@ -100,6 +101,19 @@ class PostController extends Controller
                 $likes->user_id = $request->userId;
                 $likes->post_id = $request->postId;
                 $likes->save();
+                $post=Posts::find($request->postId);
+
+                $user = User::find($request->userId);
+                $notifications = new Notifications();
+                $notifications->title = $user->name . " liked your post.";
+                $notifications->message = "Click to view";
+                $notifications->my_id = $post->user_id;
+                $notifications->his_id = $request->userId;
+                $notifications->post_id = $request->postId;
+                $notifications->type = "post";
+                $notifications->time = round(microtime(true) * 1000);
+                $notifications->save();
+
             }
 
             return response()->json([

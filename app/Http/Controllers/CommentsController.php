@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Comments;
 use App\Constants;
+use App\Notifications;
 use App\Posts;
 use App\SendNotification;
 use App\User;
@@ -29,8 +30,19 @@ class CommentsController extends Controller
             $comments->post_id = $request->post_id;
             $comments->time =$milliseconds;
             $comments->save();
-            $user = User::find($comments->user_id);
+
+
+            $user = User::find($request->id);
             $comments->user = $user;
+
+            $notifications = new Notifications();
+            $notifications->title = $user->name . " commented on your post.";
+            $notifications->message = "Click to view";
+            $notifications->my_id = $request->id;
+            $notifications->his_id = $request->his_id;
+            $notifications->type = "post";
+            $notifications->save();
+
 
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "false", 'comment' => $comments
