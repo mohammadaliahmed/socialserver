@@ -152,7 +152,7 @@ class FriendsController extends Controller
 
         $data = DB::select("DELETE from friends
                           where (user_one=" . $request->id . " and user_two=" . $request->his_id . ")
-                          or (user_one=" . $request->his_id . " and user_two=" . $request->id . ")");
+                          or (user_one=" . $request->his_id . " and user_two=" . $request->id );
 
 
         return response()->json([

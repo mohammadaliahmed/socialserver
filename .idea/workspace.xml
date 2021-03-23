@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
@@ -109,14 +105,36 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="113" column="12" lean-forward="false" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+            <state relative-caret-position="307">
+              <caret line="89" column="51" lean-forward="false" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
               <folding>
-                <marker date="1616492589357" expanded="true" signature="7662:7972" ph="SELECT * FRO... users" />
-                <marker date="1616492589357" expanded="true" signature="8613:8814" ph="Select id fr... friends" />
+                <marker date="1616496693021" expanded="true" signature="7650:7960" ph="SELECT * FRO... users" />
+                <marker date="1616496693021" expanded="true" signature="8601:8802" ph="Select id fr... friends" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="154" column="94" lean-forward="false" selection-start-line="154" selection-start-column="94" selection-end-line="154" selection-end-column="94" />
+              <folding>
+                <marker date="1616497925246" expanded="true" signature="4705:4904" ph="DELETE from " />
+                <marker date="1616497925246" expanded="true" signature="4705:4921" ph="DELETE from " />
+                <marker date="1616497925246" expanded="true" signature="5156:5222" ph="SELECT * FRO... friends" />
+                <marker date="1616497925246" expanded="true" signature="5490:5642" ph="select * fro... users" />
+                <marker date="1616497925246" expanded="true" signature="5553:5641" ph="Select user_... friends" />
+                <marker date="1616497925246" expanded="true" signature="5678:5830" ph="select * fro... users" />
+                <marker date="1616497925246" expanded="true" signature="5741:5829" ph="Select user_... friends" />
+                <marker date="1616497925246" expanded="true" signature="6155:6311" ph="select * fro... users" />
+                <marker date="1616497925246" expanded="true" signature="6218:6310" ph="Select user_... friends" />
+                <marker date="1616497925246" expanded="true" signature="6350:6506" ph="select * fro... users" />
+                <marker date="1616497925246" expanded="true" signature="6413:6505" ph="Select user_... friends" />
               </folding>
             </state>
           </provider>
@@ -126,8 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>viewpos</find>
-      <find>viewPost</find>
       <find>time</find>
       <find>sendStoryMessage</find>
       <find>allStories</find>
@@ -156,6 +172,8 @@
       <find>likeu</find>
       <find>notific</find>
       <find>millis</find>
+      <find>remo</find>
+      <find>remove</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,8 +203,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_03_23_090750_add_profile_type_to_users_table.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
       </list>
     </option>
   </component>
@@ -610,12 +628,12 @@
       <workItem from="1610340098573" duration="601000" />
       <workItem from="1614746298748" duration="1141000" />
       <workItem from="1614939346804" duration="86000" />
-      <workItem from="1616402290423" duration="17055000" />
+      <workItem from="1616402290423" duration="18633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83529000" />
+    <option name="totallyTimeSpent" value="85107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1120,32 +1138,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        <state relative-caret-position="307">
+          <caret line="89" column="51" lean-forward="false" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="51" />
           <folding>
-            <marker date="1616491889761" expanded="true" signature="4705:4925" ph="DELETE from " />
-            <marker date="1616491889761" expanded="true" signature="5161:5227" ph="SELECT * FRO... friends" />
-            <marker date="1616491889761" expanded="true" signature="5495:5647" ph="select * fro... users" />
-            <marker date="1616491889761" expanded="true" signature="5558:5646" ph="Select user_... friends" />
-            <marker date="1616491889761" expanded="true" signature="5683:5835" ph="select * fro... users" />
-            <marker date="1616491889761" expanded="true" signature="5746:5834" ph="Select user_... friends" />
-            <marker date="1616491889761" expanded="true" signature="6160:6316" ph="select * fro... users" />
-            <marker date="1616491889761" expanded="true" signature="6223:6315" ph="Select user_... friends" />
-            <marker date="1616491889761" expanded="true" signature="6355:6511" ph="select * fro... users" />
-            <marker date="1616491889761" expanded="true" signature="6418:6510" ph="Select user_... friends" />
+            <marker date="1616496693021" expanded="true" signature="7650:7960" ph="SELECT * FRO... users" />
+            <marker date="1616496693021" expanded="true" signature="8601:8802" ph="Select id fr... friends" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="113" column="12" lean-forward="false" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+        <state relative-caret-position="392">
+          <caret line="154" column="94" lean-forward="false" selection-start-line="154" selection-start-column="94" selection-end-line="154" selection-end-column="94" />
           <folding>
-            <marker date="1616492589357" expanded="true" signature="7662:7972" ph="SELECT * FRO... users" />
-            <marker date="1616492589357" expanded="true" signature="8613:8814" ph="Select id fr... friends" />
+            <marker date="1616497925246" expanded="true" signature="4705:4904" ph="DELETE from " />
+            <marker date="1616497925246" expanded="true" signature="4705:4921" ph="DELETE from " />
+            <marker date="1616497925246" expanded="true" signature="5156:5222" ph="SELECT * FRO... friends" />
+            <marker date="1616497925246" expanded="true" signature="5490:5642" ph="select * fro... users" />
+            <marker date="1616497925246" expanded="true" signature="5553:5641" ph="Select user_... friends" />
+            <marker date="1616497925246" expanded="true" signature="5678:5830" ph="select * fro... users" />
+            <marker date="1616497925246" expanded="true" signature="5741:5829" ph="Select user_... friends" />
+            <marker date="1616497925246" expanded="true" signature="6155:6311" ph="select * fro... users" />
+            <marker date="1616497925246" expanded="true" signature="6218:6310" ph="Select user_... friends" />
+            <marker date="1616497925246" expanded="true" signature="6350:6506" ph="select * fro... users" />
+            <marker date="1616497925246" expanded="true" signature="6413:6505" ph="Select user_... friends" />
           </folding>
         </state>
       </provider>
