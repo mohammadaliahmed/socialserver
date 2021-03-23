@@ -150,7 +150,7 @@ class FriendsController extends Controller
     public function removeAsFriend(Request $request)
     {
 
-        $data = DB::select("DELETE from friends
+        $data = DB::statement("DELETE from friends
                           where (user_one=" . $request->id . " and user_two=" . $request->his_id . ")
                           or (user_one=" . $request->his_id . " and user_two=" . $request->id . ")");
 
