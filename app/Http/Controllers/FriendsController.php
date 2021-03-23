@@ -31,33 +31,62 @@ class FriendsController extends Controller
             ], Response::HTTP_OK);
         } else {
 
-
-            $friend = new Friends();
-            $friend->user_one = $request->id;
-            $friend->user_two = $request->his_id;
-            $friend->type = 'request';
-            $friend->save();
-
             $user1 = User::find($request->id);
             $user2 = User::find($request->his_id);
 
-            $notifications = new Notifications();
-            $notifications->title = $user1->name . " sent you a friend request.";
-            $notifications->message = "Click to view";
-            $notifications->my_id = $request->his_id;
-            $notifications->his_id = $request->id;
-            $notifications->type = "request";
-            $notifications->time = round(microtime(true) * 1000);
-            $notifications->save();
+            if ($user2->type == 1) {
+                $friend = new Friends();
+                $friend->user_one = $request->id;
+                $friend->user_two = $request->his_id;
+                $friend->type = 'friend';
+                $friend->save();
 
 
-            $notification = new SendNotification();
-            $notification->sendPushNotification($user2->fcmKey,
-                'New friend request',
-                $user1->name . ' sent a friend request',
-                $request->id,
-                'request'
-            );
+                $notifications = new Notifications();
+                $notifications->title = $user1->name . " added you as a friend.";
+                $notifications->message = "Click to view";
+                $notifications->my_id = $request->his_id;
+                $notifications->his_id = $request->id;
+                $notifications->type = "request";
+                $notifications->time = round(microtime(true) * 1000);
+                $notifications->save();
+
+
+                $notification = new SendNotification();
+                $notification->sendPushNotification($user2->fcmKey,
+                    'New friend request',
+                    $user1->name . ' added you as a friend',
+                    $request->id,
+                    'request'
+                );
+            } else {
+
+
+                $friend = new Friends();
+                $friend->user_one = $request->id;
+                $friend->user_two = $request->his_id;
+                $friend->type = 'request';
+                $friend->save();
+
+
+                $notifications = new Notifications();
+                $notifications->title = $user1->name . " sent you a friend request.";
+                $notifications->message = "Click to view";
+                $notifications->my_id = $request->his_id;
+                $notifications->his_id = $request->id;
+                $notifications->type = "request";
+                $notifications->time = round(microtime(true) * 1000);
+                $notifications->save();
+
+
+                $notification = new SendNotification();
+                $notification->sendPushNotification($user2->fcmKey,
+                    'New friend request',
+                    $user1->name . ' sent a friend request',
+                    $request->id,
+                    'request'
+                );
+            }
 
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "Request Sent"

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/social.iml" afterPath="$PROJECT_DIR$/.idea/social.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
@@ -110,77 +109,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="109" column="55" lean-forward="false" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
-              <folding>
-                <marker date="1616433399981" expanded="true" signature="2366:2479" ph="Select * fro... users" />
-                <marker date="1616433399981" expanded="true" signature="2418:2458" ph="Select user_... likes" />
-                <marker date="1616433399981" expanded="true" signature="4696:4787" ph="Select * fro... posts" />
-                <marker date="1616433399981" expanded="true" signature="5063:5230" ph="select users... users" />
-                <marker date="1616433399981" expanded="true" signature="6387:6416" ph="Select * fro... posts" />
-                <marker date="1616433399981" expanded="true" signature="6712:6879" ph="select users... users" />
-                <marker date="1616433399981" expanded="true" signature="8416:8583" ph="select users... users" />
-                <marker date="1616433399981" expanded="true" signature="9976:10143" ph="select users... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="166" column="5" lean-forward="false" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
+            <state relative-caret-position="835">
+              <caret line="113" column="12" lean-forward="false" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
               <folding>
-                <marker date="1616410673136" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
-                <marker date="1616410673136" expanded="true" signature="7020:7221" ph="Select id fr... friends" />
+                <marker date="1616492589357" expanded="true" signature="7662:7972" ph="SELECT * FRO... users" />
+                <marker date="1616492589357" expanded="true" signature="8613:8814" ph="Select id fr... friends" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FriendsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-              <folding>
-                <marker date="1616433040737" expanded="true" signature="3549:3769" ph="DELETE from " />
-                <marker date="1616433040737" expanded="true" signature="4005:4071" ph="SELECT * FRO... friends" />
-                <marker date="1616433040737" expanded="true" signature="4339:4491" ph="select * fro... users" />
-                <marker date="1616433040737" expanded="true" signature="4402:4490" ph="Select user_... friends" />
-                <marker date="1616433040737" expanded="true" signature="4527:4679" ph="select * fro... users" />
-                <marker date="1616433040737" expanded="true" signature="4590:4678" ph="Select user_... friends" />
-                <marker date="1616433040737" expanded="true" signature="5004:5160" ph="select * fro... users" />
-                <marker date="1616433040737" expanded="true" signature="5067:5159" ph="Select user_... friends" />
-                <marker date="1616433040737" expanded="true" signature="5199:5355" ph="select * fro... users" />
-                <marker date="1616433040737" expanded="true" signature="5262:5354" ph="Select user_... friends" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NotificationsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="62" lean-forward="false" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
-              <folding>
-                <element signature="e#40#58#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendNotification.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/SendNotification.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -216,9 +153,9 @@
       <find>mil</find>
       <find>mill</find>
       <find>milli</find>
-      <find>millis</find>
       <find>likeu</find>
       <find>notific</find>
+      <find>millis</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,14 +178,15 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_03_22_085201_create_notifications_table.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" />
+        <option value="$PROJECT_DIR$/app/SendNotification.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CommentsController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_03_23_090750_add_profile_type_to_users_table.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FriendsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/NotificationsController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
-        <option value="$PROJECT_DIR$/app/SendNotification.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
       </list>
     </option>
   </component>
@@ -412,60 +350,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="database" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -485,20 +369,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="socialserver" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +436,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="send&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;like&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/resources/views/layouts/app.blade.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/web.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/.env&#10;file&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FileUploadController.php&#10;cons&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Constants.php&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/config/app.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/database/migrations/2020_02_25_113238_create_messages_table.php&#10;messaco&#9;null&#9;null&#10;roomcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;storie&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;mai&#9;null&#9;null&#10;mess&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;appserv&#9;null&#9;null&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/api.php&#10;web&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/routes/web.php&#10;userco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;postco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;likeco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;sendp&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;send&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;userc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;like&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/LikesController.php&#10;app&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/resources/views/layouts/app.blade.php&#10;.env&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/.env&#10;file&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FileUploadController.php&#10;cons&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Constants.php&#10;messa&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;app.&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/config/app.php&#10;room&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;message&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/database/migrations/2020_02_25_113238_create_messages_table.php&#10;messaco&#9;null&#9;null&#10;roomcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;storie&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;mai&#9;null&#9;null&#10;mess&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;appserv&#9;null&#9;null&#10;postcon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;postc&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/PostController.php&#10;comm&#9;null&#9;null&#10;Sen&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/SendNotification.php&#10;fr&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;roomco&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/RoomsController.php&#10;messagec&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/MessageController.php&#10;stor&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/StoriesController.php&#10;fri&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/FriendsController.php&#10;usercon&#9;FILE&#9;file://C:/xampp/htdocs/socialserver/app/Http/Controllers/UserController.php&#10;mes&#9;null&#9;null&#10;roomc&#9;null&#9;null&#10;index.php&#9;FILE&#9;file://C:/xampp/htdocs/social/index.php&#10;com&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;coo&#9;null&#9;null&#10;comme&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/CommentsController.php&#10;frien&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/FriendsController.php&#10;user&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Http/Controllers/UserController.php&#10;defaultStringLength&#9;null&#9;null&#10;pi&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;post&#9;FILE&#9;file://C:/xampp/htdocs/social/app/Posts.php&#10;api.&#9;FILE&#9;file://C:/xampp/htdocs/social/routes/api.php&#10;control&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -740,12 +610,12 @@
       <workItem from="1610340098573" duration="601000" />
       <workItem from="1614746298748" duration="1141000" />
       <workItem from="1614939346804" duration="86000" />
-      <workItem from="1616402290423" duration="12026000" />
+      <workItem from="1616402290423" duration="17055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78500000" />
+    <option name="totallyTimeSpent" value="83529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -853,13 +723,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="132" column="29" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
@@ -1128,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1170,14 +1025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="38" column="72" lean-forward="true" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessageController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -1190,74 +1037,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LikesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="88" column="2" lean-forward="false" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_22_085201_create_notifications_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="109" column="55" lean-forward="false" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
-          <folding>
-            <marker date="1616433399981" expanded="true" signature="2366:2479" ph="Select * fro... users" />
-            <marker date="1616433399981" expanded="true" signature="2418:2458" ph="Select user_... likes" />
-            <marker date="1616433399981" expanded="true" signature="4696:4787" ph="Select * fro... posts" />
-            <marker date="1616433399981" expanded="true" signature="5063:5230" ph="select users... users" />
-            <marker date="1616433399981" expanded="true" signature="6387:6416" ph="Select * fro... posts" />
-            <marker date="1616433399981" expanded="true" signature="6712:6879" ph="select users... users" />
-            <marker date="1616433399981" expanded="true" signature="8416:8583" ph="select users... users" />
-            <marker date="1616433399981" expanded="true" signature="9976:10143" ph="select users... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="166" column="5" lean-forward="false" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
-          <folding>
-            <marker date="1616410673136" expanded="true" signature="6069:6379" ph="SELECT * FRO... users" />
-            <marker date="1616410673136" expanded="true" signature="7020:7221" ph="Select id fr... friends" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="41" column="50" lean-forward="false" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <marker date="1616433040737" expanded="true" signature="3549:3769" ph="DELETE from " />
-            <marker date="1616433040737" expanded="true" signature="4005:4071" ph="SELECT * FRO... friends" />
-            <marker date="1616433040737" expanded="true" signature="4339:4491" ph="select * fro... users" />
-            <marker date="1616433040737" expanded="true" signature="4402:4490" ph="Select user_... friends" />
-            <marker date="1616433040737" expanded="true" signature="4527:4679" ph="select * fro... users" />
-            <marker date="1616433040737" expanded="true" signature="4590:4678" ph="Select user_... friends" />
-            <marker date="1616433040737" expanded="true" signature="5004:5160" ph="select * fro... users" />
-            <marker date="1616433040737" expanded="true" signature="5067:5159" ph="Select user_... friends" />
-            <marker date="1616433040737" expanded="true" signature="5199:5355" ph="select * fro... users" />
-            <marker date="1616433040737" expanded="true" signature="5262:5354" ph="Select user_... friends" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,6 +1060,93 @@
         <state relative-caret-position="476">
           <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LikesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CommentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_03_23_090750_add_profile_type_to_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <marker date="1616475286212" expanded="true" signature="2366:2479" ph="Select * fro... users" />
+            <marker date="1616475286212" expanded="true" signature="2418:2458" ph="Select user_... likes" />
+            <marker date="1616475286212" expanded="true" signature="4816:4907" ph="Select * fro... posts" />
+            <marker date="1616475286212" expanded="true" signature="5183:5350" ph="select users... users" />
+            <marker date="1616475286212" expanded="true" signature="6507:6536" ph="Select * fro... posts" />
+            <marker date="1616475286212" expanded="true" signature="6832:6999" ph="select users... users" />
+            <marker date="1616475286212" expanded="true" signature="8536:8703" ph="select users... users" />
+            <marker date="1616475286212" expanded="true" signature="10096:10263" ph="select users... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+          <folding>
+            <marker date="1616491889761" expanded="true" signature="4705:4925" ph="DELETE from " />
+            <marker date="1616491889761" expanded="true" signature="5161:5227" ph="SELECT * FRO... friends" />
+            <marker date="1616491889761" expanded="true" signature="5495:5647" ph="select * fro... users" />
+            <marker date="1616491889761" expanded="true" signature="5558:5646" ph="Select user_... friends" />
+            <marker date="1616491889761" expanded="true" signature="5683:5835" ph="select * fro... users" />
+            <marker date="1616491889761" expanded="true" signature="5746:5834" ph="Select user_... friends" />
+            <marker date="1616491889761" expanded="true" signature="6160:6316" ph="select * fro... users" />
+            <marker date="1616491889761" expanded="true" signature="6223:6315" ph="Select user_... friends" />
+            <marker date="1616491889761" expanded="true" signature="6355:6511" ph="select * fro... users" />
+            <marker date="1616491889761" expanded="true" signature="6418:6510" ph="Select user_... friends" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="113" column="12" lean-forward="false" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
+          <folding>
+            <marker date="1616492589357" expanded="true" signature="7662:7972" ph="SELECT * FRO... users" />
+            <marker date="1616492589357" expanded="true" signature="8613:8814" ph="Select id fr... friends" />
+          </folding>
         </state>
       </provider>
     </entry>

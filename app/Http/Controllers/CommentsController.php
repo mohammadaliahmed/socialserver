@@ -28,20 +28,27 @@ class CommentsController extends Controller
             $comments->text = $request->text;
             $comments->user_id = $request->id;
             $comments->post_id = $request->post_id;
-            $comments->time =$milliseconds;
+            $comments->time = $milliseconds;
             $comments->save();
 
 
             $user = User::find($request->id);
+            $post = Posts::find($request->post_id);
             $comments->user = $user;
 
-            $notifications = new Notifications();
-            $notifications->title = $user->name . " commented on your post.";
-            $notifications->message = "Click to view";
-            $notifications->my_id = $request->id;
-            $notifications->his_id = $request->his_id;
-            $notifications->type = "post";
-            $notifications->save();
+
+            if ($request->id != $post->user_id) {
+
+                $notifications = new Notifications();
+                $notifications->title = $user->name . " commented on your post.";
+                $notifications->message = "Click to view";
+                $notifications->my_id = $post->user_id;
+                $notifications->his_id = $request->id;
+                $notifications->type = "post";
+                $notifications->time = $milliseconds;
+                $notifications->post_id = $request->post_id;
+                $notifications->save();
+            }
 
 
             return response()->json([
@@ -68,7 +75,7 @@ class CommentsController extends Controller
                 $comment->user = $user;
             }
 
-            $post=Posts::find($request->post_id);
+            $post = Posts::find($request->post_id);
             $postByUser = User::find($post->user_id);
 
             return response()->json([

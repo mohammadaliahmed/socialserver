@@ -101,19 +101,23 @@ class PostController extends Controller
                 $likes->user_id = $request->userId;
                 $likes->post_id = $request->postId;
                 $likes->save();
-                $post=Posts::find($request->postId);
+                $post = Posts::find($request->postId);
 
-                $user = User::find($request->userId);
-                $notifications = new Notifications();
-                $notifications->title = $user->name . " liked your post.";
-                $notifications->message = "Click to view";
-                $notifications->my_id = $post->user_id;
-                $notifications->his_id = $request->userId;
-                $notifications->post_id = $request->postId;
-                $notifications->type = "post";
-                $notifications->time = round(microtime(true) * 1000);
-                $notifications->save();
+                if ($request->userId != $post->user_id) {
 
+
+                    $user = User::find($request->userId);
+                    $notifications = new Notifications();
+                    $notifications->title = $user->name . " liked your post.";
+                    $notifications->message = "Click to view";
+                    $notifications->my_id = $post->user_id;
+                    $notifications->his_id = $request->userId;
+                    $notifications->post_id = $request->postId;
+                    $notifications->type = "post";
+                    $notifications->time = round(microtime(true) * 1000);
+                    $notifications->save();
+
+                }
             }
 
             return response()->json([

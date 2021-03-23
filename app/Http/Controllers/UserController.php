@@ -105,6 +105,47 @@ class UserController extends Controller
         }
     }
 
+    public function updateProfileType(Request $request)
+    {
+        if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
+            return response()->json([
+                'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
+            ], Response::HTTP_OK);
+
+        } else {
+
+            $userr = User::find($request->id);
+            $userr->type = $request->type;
+
+            $userr->update();
+
+            $requestsSent = DB::table('friends')
+                ->where('user_one', $request->id)
+                ->where('type', 'request')
+                ->get();
+            $requestsReceived = DB::table('friends')
+                ->where('user_two', $request->id)
+                ->where('type', 'request')
+                ->get();
+
+            $friends1 = DB::table('friends')->where('user_one', $request->id)->where('type', 'friend')->get();
+            $friends2 = DB::table('friends')->where('user_two', $request->id)->where('type', 'friend')->get();
+            $friends = array_merge($friends1->pluck('user_two')->toArray(), $friends2->pluck('user_one')->toArray());
+            $userr->friendsCount = count($friends);
+            $userr->requestsSent = $requestsSent->pluck('user_two');
+            $userr->friends = $friends;
+            $userr->requestsReceived = $requestsReceived->pluck('user_one');
+
+
+            return response()->json([
+                'code' => 200, 'message' => "false",
+                'user' => $userr
+
+            ], Response::HTTP_OK);
+
+        }
+    }
+
     public function updateProfilePicture(Request $request)
     {
         if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
@@ -138,7 +179,6 @@ class UserController extends Controller
         } else {
 
             $user = DB::table('users')->where('email', $request->email)->first();
-
 
 
             if ($user) {
@@ -219,7 +259,6 @@ class UserController extends Controller
             $userr->requestsSent = $requestsSent->pluck('user_two');
             $userr->friends = $friends;
             $userr->requestsReceived = $requestsReceived->pluck('user_one');
-
 
 
             return response()->json([
