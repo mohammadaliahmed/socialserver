@@ -122,19 +122,20 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="392">
-              <caret line="154" column="94" lean-forward="false" selection-start-line="154" selection-start-column="94" selection-end-line="154" selection-end-column="94" />
+              <caret line="154" column="99" lean-forward="false" selection-start-line="154" selection-start-column="99" selection-end-line="154" selection-end-column="99" />
               <folding>
-                <marker date="1616497925246" expanded="true" signature="4705:4904" ph="DELETE from " />
-                <marker date="1616497925246" expanded="true" signature="4705:4921" ph="DELETE from " />
-                <marker date="1616497925246" expanded="true" signature="5156:5222" ph="SELECT * FRO... friends" />
-                <marker date="1616497925246" expanded="true" signature="5490:5642" ph="select * fro... users" />
-                <marker date="1616497925246" expanded="true" signature="5553:5641" ph="Select user_... friends" />
-                <marker date="1616497925246" expanded="true" signature="5678:5830" ph="select * fro... users" />
-                <marker date="1616497925246" expanded="true" signature="5741:5829" ph="Select user_... friends" />
-                <marker date="1616497925246" expanded="true" signature="6155:6311" ph="select * fro... users" />
-                <marker date="1616497925246" expanded="true" signature="6218:6310" ph="Select user_... friends" />
-                <marker date="1616497925246" expanded="true" signature="6350:6506" ph="select * fro... users" />
-                <marker date="1616497925246" expanded="true" signature="6413:6505" ph="Select user_... friends" />
+                <marker date="1616498080105" expanded="true" signature="4705:4904" ph="DELETE from " />
+                <marker date="1616498080105" expanded="true" signature="4705:4921" ph="DELETE from " />
+                <marker date="1616498080105" expanded="true" signature="4705:4925" ph="DELETE from " />
+                <marker date="1616498080105" expanded="true" signature="5161:5227" ph="SELECT * FRO... friends" />
+                <marker date="1616498080105" expanded="true" signature="5495:5647" ph="select * fro... users" />
+                <marker date="1616498080105" expanded="true" signature="5558:5646" ph="Select user_... friends" />
+                <marker date="1616498080105" expanded="true" signature="5683:5835" ph="select * fro... users" />
+                <marker date="1616498080105" expanded="true" signature="5746:5834" ph="Select user_... friends" />
+                <marker date="1616498080105" expanded="true" signature="6160:6316" ph="select * fro... users" />
+                <marker date="1616498080105" expanded="true" signature="6223:6315" ph="Select user_... friends" />
+                <marker date="1616498080105" expanded="true" signature="6355:6511" ph="select * fro... users" />
+                <marker date="1616498080105" expanded="true" signature="6418:6510" ph="Select user_... friends" />
               </folding>
             </state>
           </provider>
@@ -628,12 +629,12 @@
       <workItem from="1610340098573" duration="601000" />
       <workItem from="1614746298748" duration="1141000" />
       <workItem from="1614939346804" duration="86000" />
-      <workItem from="1616402290423" duration="18633000" />
+      <workItem from="1616402290423" duration="18784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85107000" />
+    <option name="totallyTimeSpent" value="85258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -648,7 +649,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1152,19 +1153,20 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="154" column="94" lean-forward="false" selection-start-line="154" selection-start-column="94" selection-end-line="154" selection-end-column="94" />
+          <caret line="154" column="99" lean-forward="false" selection-start-line="154" selection-start-column="99" selection-end-line="154" selection-end-column="99" />
           <folding>
-            <marker date="1616497925246" expanded="true" signature="4705:4904" ph="DELETE from " />
-            <marker date="1616497925246" expanded="true" signature="4705:4921" ph="DELETE from " />
-            <marker date="1616497925246" expanded="true" signature="5156:5222" ph="SELECT * FRO... friends" />
-            <marker date="1616497925246" expanded="true" signature="5490:5642" ph="select * fro... users" />
-            <marker date="1616497925246" expanded="true" signature="5553:5641" ph="Select user_... friends" />
-            <marker date="1616497925246" expanded="true" signature="5678:5830" ph="select * fro... users" />
-            <marker date="1616497925246" expanded="true" signature="5741:5829" ph="Select user_... friends" />
-            <marker date="1616497925246" expanded="true" signature="6155:6311" ph="select * fro... users" />
-            <marker date="1616497925246" expanded="true" signature="6218:6310" ph="Select user_... friends" />
-            <marker date="1616497925246" expanded="true" signature="6350:6506" ph="select * fro... users" />
-            <marker date="1616497925246" expanded="true" signature="6413:6505" ph="Select user_... friends" />
+            <marker date="1616498080105" expanded="true" signature="4705:4904" ph="DELETE from " />
+            <marker date="1616498080105" expanded="true" signature="4705:4921" ph="DELETE from " />
+            <marker date="1616498080105" expanded="true" signature="4705:4925" ph="DELETE from " />
+            <marker date="1616498080105" expanded="true" signature="5161:5227" ph="SELECT * FRO... friends" />
+            <marker date="1616498080105" expanded="true" signature="5495:5647" ph="select * fro... users" />
+            <marker date="1616498080105" expanded="true" signature="5558:5646" ph="Select user_... friends" />
+            <marker date="1616498080105" expanded="true" signature="5683:5835" ph="select * fro... users" />
+            <marker date="1616498080105" expanded="true" signature="5746:5834" ph="Select user_... friends" />
+            <marker date="1616498080105" expanded="true" signature="6160:6316" ph="select * fro... users" />
+            <marker date="1616498080105" expanded="true" signature="6223:6315" ph="Select user_... friends" />
+            <marker date="1616498080105" expanded="true" signature="6355:6511" ph="select * fro... users" />
+            <marker date="1616498080105" expanded="true" signature="6418:6510" ph="Select user_... friends" />
           </folding>
         </state>
       </provider>
