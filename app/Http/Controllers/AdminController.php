@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Posts;
+use App\Stories;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
@@ -24,6 +25,19 @@ class AdminController extends Controller
         }
 //        return $posts;
         return view('admin', compact('posts'));
+
+
+    }
+
+    public function stories()
+    {
+        $stories = Stories::orderBy('id', 'desc')->get();
+        foreach ($stories as $story) {
+            $story->user = User::find($story->user_id);
+
+        }
+//        return $posts;
+        return view('story', compact('stories'));
 
 
     }
@@ -50,6 +64,25 @@ class AdminController extends Controller
         }
 
         $post->delete();
+
+
+        return Redirect()->back();
+
+
+    }
+
+    public function deleteStory($id)
+    {
+        $story = Stories::find($id);
+
+        $file_path = 'public/images/' . $story->url;
+        try {
+            // do something
+            unlink($file_path);
+        } catch (\Throwable $e) {
+        }
+
+        $story->delete();
 
 
         return Redirect()->back();

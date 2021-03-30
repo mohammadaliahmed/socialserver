@@ -20,6 +20,8 @@ Route::get('/privacy', function () {
 
 
 Route::get('/admin', 'AdminController@admin');
+Route::get('/stories', 'AdminController@stories');
 
 Route::get('/deletepicture/{id}', 'AdminController@deletepicture');
+Route::get('/deleteStory/{id}', 'AdminController@deleteStory');
 
