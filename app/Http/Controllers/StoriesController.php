@@ -57,12 +57,20 @@ class StoriesController extends Controller
             ], Response::HTTP_OK);
         } else {
 
-//            $stories = DB::table('stories')
-////                ->where('user_id', $request->id)->orderBy('id', 'desc')
-//                ->orderBy('id', 'desc')
-//                ->get();
+            $str = "";
+            $publicUser = User::where('type', 1)->get()->pluck('id');
+            foreach ($publicUser as $us) {
+                if ($str == "") {
+                    $str = $us;
+                } else {
+                    $str = $str . "," . $us;
+                }
+            }
+            $str = $str . "," . $request->friends;
+
+
             $milliseconds = round(microtime(true) * 1000);
-            $stories = DB::select("Select * from stories where user_id in (" . $request->friends . ") 
+            $stories = DB::select("Select * from stories where user_id in (" . $str . ") 
                                         and  time > (".$milliseconds." - 84600000)
                                         order by id asc");
 

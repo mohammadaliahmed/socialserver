@@ -136,7 +136,21 @@ class PostController extends Controller
             ], Response::HTTP_OK);
         } else {
 
-            $posts = DB::select("Select * from posts where user_id in (" . $request->friends . ") order by id desc limit 100");
+            $str = "";
+            $publicUser = User::where('type', 1)->get()->pluck('id');
+            foreach ($publicUser as $us) {
+                if ($str == "") {
+                    $str = $us;
+                } else {
+                    $str = $str . "," . $us;
+                }
+            }
+            $str = $str . "," . $request->friends;
+
+
+//            return $request->friends;
+            $posts = DB::select("Select * from posts where user_id in (" . $str . ") order by id desc limit 100");
+
             foreach ($posts as $post) {
                 $user = User::find($post->user_id);
                 $post->user = $user;
