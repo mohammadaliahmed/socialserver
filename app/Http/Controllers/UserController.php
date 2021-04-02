@@ -182,15 +182,18 @@ class UserController extends Controller
 
 
             if ($user) {
-
+                $user1=User::find($user->id);
+                $user1->username=$request->username;
+                $user1->update();
                 return response()->json([
-                    'code' => 200, 'message' => "false", 'user' => $user
+                    'code' => 200, 'message' => "false", 'user' => $user1
                     ,
                 ], Response::HTTP_OK);
             } else {
                 $user = new User();
                 $user->name = $request->name;
                 $user->email = $request->email;
+                $user->username = $request->username;
                 $user->password = md5($request->password);
                 $user->picUrl = $request->picUrl;
                 $user->thumbnailUrl = $request->picUrl;
