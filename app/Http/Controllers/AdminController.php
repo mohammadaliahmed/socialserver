@@ -16,15 +16,15 @@ class AdminController extends Controller
     {
 
 
-        $users=User::get();
-        foreach ($users as $user){
-           $user->username=explode("@",$user->email)[0];
-           $user->update();
-
-        }
-//        return $users;
-
-        return 'sad';
+//        $users=User::get();
+//        foreach ($users as $user){
+//           $user->username=explode("@",$user->email)[0];
+//           $user->update();
+//
+//        }
+////        return $users;
+//
+//        return 'sad';
         $picArray = array();
         $posts = Posts::orderBy('id', 'desc')->get();
         foreach ($posts as $post) {
