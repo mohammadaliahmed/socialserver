@@ -292,4 +292,24 @@ class PostController extends Controller
         }
 
     }
+
+    public function addPostmanPost(Request $request)
+    {
+
+        $data = json_decode($request->getContent(), true);
+        $milliseconds = round(microtime(true) * 1000);
+        for ($i = 0; $i < sizeof($data); $i++) {
+
+            $post = new Posts();
+            $post->images_url = $data[$i]['images_url'];
+            $post->user_id = $data[$i]['user_id'];
+            $post->post_type = $data[$i]['post_type'];
+            $post->time = $milliseconds;
+            $post->random_id = $milliseconds;
+            $post->save();
+
+        }
+
+
+    }
 }

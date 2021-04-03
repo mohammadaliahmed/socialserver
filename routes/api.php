@@ -43,6 +43,7 @@ Route::group(['prefix' => 'post'], function () {
     Route::post('getUserPosts', 'PostController@getUserPosts');
     Route::post('myPosts', 'PostController@myPosts');
     Route::post('getPost', 'PostController@getPost');
+    Route::post('addPostmanPost', 'PostController@addPostmanPost');
 });
 Route::group(['prefix' => 'story'], function () {
 
