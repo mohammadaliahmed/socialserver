@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\File;
 
 class FileUploadController extends Controller
 {
@@ -13,8 +14,13 @@ class FileUploadController extends Controller
         $milliseconds = round(microtime(true) * 1000);
         if ($request->has('photo')) {
             $file_name = $milliseconds . '.jpg';
-            $path = $request->file('photo')->move(public_path("/images"), $file_name);
-            $photo_url = url('/images/' . $file_name);
+            $path = public_path($request->user);
+
+            if (!File::isDirectory('images/'.$path)) {
+                File::makeDirectory($path, 0777, true, true);
+            }
+
+            $path = $request->file('photo')->move(public_path("/images/".$request->username), $file_name);
             echo $file_name;
 //            return response()->json([
 //                'code' => Response::HTTP_OK, 'message' => "false", 'url' => $file_name
@@ -38,7 +44,9 @@ class FileUploadController extends Controller
         }
 
     }
-    public function asterisk(Request $request,$id){
+
+    public function asterisk(Request $request, $id)
+    {
 
         return 5;
     }

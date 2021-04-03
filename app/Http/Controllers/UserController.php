@@ -220,6 +220,7 @@ class UserController extends Controller
                                   like '%" . $request->search . "%'
                                    or email like '%" . $request->search . "%' 
                                   or username like '%" . $request->search . "%') and id !=" . $request->id . " order by name asc");
+
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "false"
                 , 'users' => $users
