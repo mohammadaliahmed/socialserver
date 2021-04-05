@@ -239,7 +239,7 @@ class UserController extends Controller
             $use = User::find($request->his_id);
 
             $friendCount = DB::select("Select id from friends where
-                                            (user_one=" . $request->id . " or user_two =" . $request->id . ") 
+                                            (user_one=" . $request->his_id . " or user_two =" . $request->his_id . ") 
                                             and type='friend' ");
             $friendCount = count($friendCount);
 
