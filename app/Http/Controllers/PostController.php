@@ -293,6 +293,36 @@ class PostController extends Controller
 
     }
 
+    public
+    function explorePosts(Request $request)
+    {
+        if ($request->api_username != Constants::$API_USERNAME && $request->api_password != Constants::$API_PASSOWRD) {
+            return response()->json([
+                'code' => Response::HTTP_FORBIDDEN, 'message' => "Wrong api credentials"
+            ], Response::HTTP_OK);
+        } else {
+
+            $posts = DB::select("SELECT posts.id,posts.user_id,posts.post_type,posts.images_url,users.username
+FROM posts
+LEFT JOIN users
+ON posts.user_id = users.id
+WHERE    (posts.id, posts.user_id) IN (
+           SELECT   MAX(posts.id), posts.user_id
+           FROM     posts
+    		where user_id in (select id from users where users.type=1)
+           GROUP BY user_id)");
+
+
+
+
+            return response()->json([
+                'code' => Response::HTTP_OK, 'message' => "false", 'posts' => $posts
+                ,
+            ], Response::HTTP_OK);
+        }
+
+    }
+
     public function addPostmanPost(Request $request)
     {
 

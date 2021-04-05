@@ -44,6 +44,7 @@ Route::group(['prefix' => 'post'], function () {
     Route::post('myPosts', 'PostController@myPosts');
     Route::post('getPost', 'PostController@getPost');
     Route::post('addPostmanPost', 'PostController@addPostmanPost');
+    Route::post('explorePosts', 'PostController@explorePosts');
 });
 Route::group(['prefix' => 'story'], function () {
 
