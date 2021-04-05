@@ -190,31 +190,25 @@ class PostController extends Controller
             ], Response::HTTP_OK);
         } else {
 
-            $posts = DB::select("Select * from posts where id=" . $request->post_id);
-            foreach ($posts as $post) {
-                $user = User::find($post->user_id);
-                $post->user = $user;
-                $commentCount = DB::table('comments')->where('post_id', $post->id)->get()->count();
-                $lastComment = DB::select("select users.name, comments.text from users,
+            $post = Posts::find($request->id);
+            $user = User::find($post->user_id);
+            $post->user = $user;
+            $commentCount = DB::table('comments')->where('post_id', $post->id)->get()->count();
+            $lastComment = DB::select("select users.name, comments.text from users,
                                             comments where users.id=comments.user_id and post_id=" . $post->id . " limit 1");
 //                $lastComment = DB::table('comments')
 //                    ->where('post_id', $post->id)->limit(1)->get();
 
-                $likesCount = DB::table('likes')->where('post_id', $post->id)->count();
-                $post->likesCount = $likesCount;
-
-                $post->commentsCount = $commentCount;
-
-                $post->lastComment = $lastComment;
-
-
-            }
-
-            $likes = DB::table('likes')->where('user_id', $request->id)
+            $likesCount = DB::table('likes')->where('post_id', $post->id)->count();
+            $post->likesCount = $likesCount;
+            $post->commentsCount = $commentCount;
+            $post->lastComment = $lastComment;
+            $likes = DB::table('likes')->where('user_id', $request->user_id)
                 ->orderBy('id', 'desc')->limit(50)->get()->pluck('post_id');
+
             return response()->json([
-                'code' => Response::HTTP_OK, 'message' => "false", 'posts' => $posts
-                , 'likes' => $likes
+                'code' => Response::HTTP_OK, 'message' => "false", 'post' => $post,'likes'=>$likes
+
 
                 ,
             ], Response::HTTP_OK);
@@ -313,8 +307,6 @@ WHERE    (posts.id, posts.user_id) IN (
            GROUP BY user_id)");
 
 
-
-
             return response()->json([
                 'code' => Response::HTTP_OK, 'message' => "false", 'posts' => $posts
                 ,
@@ -323,7 +315,8 @@ WHERE    (posts.id, posts.user_id) IN (
 
     }
 
-    public function addPostmanPost(Request $request)
+    public
+    function addPostmanPost(Request $request)
     {
 
         $data = json_decode($request->getContent(), true);

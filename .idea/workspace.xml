@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc268522-1b39-4a18-a5cd-d28d832acccd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
@@ -133,20 +131,19 @@
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+            <state relative-caret-position="661">
+              <caret line="205" column="75" lean-forward="false" selection-start-line="205" selection-start-column="75" selection-end-line="205" selection-end-column="75" />
               <folding>
-                <marker date="1617609703907" expanded="true" signature="2366:2479" ph="Select * fro... users" />
-                <marker date="1617609703907" expanded="true" signature="2418:2458" ph="Select user_... likes" />
-                <marker date="1617609703907" expanded="true" signature="5213:5291" ph="Select * fro... posts" />
-                <marker date="1617609703907" expanded="true" signature="5568:5735" ph="select users... users" />
-                <marker date="1617609703907" expanded="true" signature="6892:6921" ph="Select * fro... posts" />
-                <marker date="1617609703907" expanded="true" signature="7217:7384" ph="select users... users" />
-                <marker date="1617609703907" expanded="true" signature="8921:9088" ph="select users... users" />
-                <marker date="1617609703907" expanded="true" signature="10481:10648" ph="select users... users" />
-                <marker date="1617609703907" expanded="true" signature="11667:12008" ph="SELECT posts... posts" />
-                <marker date="1617609703907" expanded="true" signature="11851:12007" ph="SELECT MAX(p... posts" />
-                <marker date="1617609703907" expanded="true" signature="11939:11978" ph="select id fr... users" />
+                <marker date="1617614697742" expanded="true" signature="2366:2479" ph="Select * fro... users" />
+                <marker date="1617614697742" expanded="true" signature="2418:2458" ph="Select user_... likes" />
+                <marker date="1617614697742" expanded="true" signature="5213:5291" ph="Select * fro... posts" />
+                <marker date="1617614697742" expanded="true" signature="5568:5735" ph="select users... users" />
+                <marker date="1617614697742" expanded="true" signature="7122:7289" ph="select users... users" />
+                <marker date="1617614697742" expanded="true" signature="8776:8943" ph="select users... users" />
+                <marker date="1617614697742" expanded="true" signature="10336:10503" ph="select users... users" />
+                <marker date="1617614697742" expanded="true" signature="11522:11863" ph="SELECT posts... posts" />
+                <marker date="1617614697742" expanded="true" signature="11706:11862" ph="SELECT MAX(p... posts" />
+                <marker date="1617614697742" expanded="true" signature="11794:11833" ph="select id fr... users" />
               </folding>
             </state>
           </provider>
@@ -176,7 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>millise</find>
       <find>likepo</find>
       <find>updateFcmKey</find>
       <find>send</find>
@@ -206,6 +202,7 @@
       <find>searchUsers</find>
       <find>rando</find>
       <find>userProfile</find>
+      <find>viewPost</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -611,15 +608,16 @@
       <workItem from="1614939346804" duration="86000" />
       <workItem from="1616402290423" duration="19450000" />
       <workItem from="1617097853218" duration="7276000" />
-      <workItem from="1617342119030" duration="14076000" />
+      <workItem from="1617342119030" duration="16240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107276000" />
+    <option name="totallyTimeSpent" value="109440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20299146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -629,7 +627,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1142,20 +1140,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="313" column="0" lean-forward="false" selection-start-line="313" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+        <state relative-caret-position="661">
+          <caret line="205" column="75" lean-forward="false" selection-start-line="205" selection-start-column="75" selection-end-line="205" selection-end-column="75" />
           <folding>
-            <marker date="1617609703907" expanded="true" signature="2366:2479" ph="Select * fro... users" />
-            <marker date="1617609703907" expanded="true" signature="2418:2458" ph="Select user_... likes" />
-            <marker date="1617609703907" expanded="true" signature="5213:5291" ph="Select * fro... posts" />
-            <marker date="1617609703907" expanded="true" signature="5568:5735" ph="select users... users" />
-            <marker date="1617609703907" expanded="true" signature="6892:6921" ph="Select * fro... posts" />
-            <marker date="1617609703907" expanded="true" signature="7217:7384" ph="select users... users" />
-            <marker date="1617609703907" expanded="true" signature="8921:9088" ph="select users... users" />
-            <marker date="1617609703907" expanded="true" signature="10481:10648" ph="select users... users" />
-            <marker date="1617609703907" expanded="true" signature="11667:12008" ph="SELECT posts... posts" />
-            <marker date="1617609703907" expanded="true" signature="11851:12007" ph="SELECT MAX(p... posts" />
-            <marker date="1617609703907" expanded="true" signature="11939:11978" ph="select id fr... users" />
+            <marker date="1617614697742" expanded="true" signature="2366:2479" ph="Select * fro... users" />
+            <marker date="1617614697742" expanded="true" signature="2418:2458" ph="Select user_... likes" />
+            <marker date="1617614697742" expanded="true" signature="5213:5291" ph="Select * fro... posts" />
+            <marker date="1617614697742" expanded="true" signature="5568:5735" ph="select users... users" />
+            <marker date="1617614697742" expanded="true" signature="7122:7289" ph="select users... users" />
+            <marker date="1617614697742" expanded="true" signature="8776:8943" ph="select users... users" />
+            <marker date="1617614697742" expanded="true" signature="10336:10503" ph="select users... users" />
+            <marker date="1617614697742" expanded="true" signature="11522:11863" ph="SELECT posts... posts" />
+            <marker date="1617614697742" expanded="true" signature="11706:11862" ph="SELECT MAX(p... posts" />
+            <marker date="1617614697742" expanded="true" signature="11794:11833" ph="select id fr... users" />
           </folding>
         </state>
       </provider>
