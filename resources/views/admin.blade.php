@@ -8,7 +8,7 @@
                 <div class="card-header">
 
 
-                    <img class="img-thumbnail" width="50" src="public/images/{{$post->user->picUrl}}"><span
+                    <img class="img-thumbnail" width="50" src="public/images/{{$post->user->username."/".$post->user->picUrl}}"><span
                             class="card-title">{{$post->user->name}}</span>
                     <a href="deletepicture/{{$post->id}}" class="align-content-end">
                         <button class="btn btn-danger">Delete</button>
