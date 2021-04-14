@@ -18,10 +18,10 @@
                 </div>
                 <div class="card-body">
                     @if($post->post_type=='image')
-                        <img src="public/images/{{$post->images_url}}" width="450">
+                        <img src="public/images/{{$post->user->username."/".$post->images_url}}" width="450">
                     @elseif($post->post_type=='multi')
                         @foreach($post->pictures as $pic)
-                            <img src="public/images/{{$pic}}" width="200">
+                            <img src="public/images/{{$post->user->username."/".$pic}}" width="200">
                         @endforeach
                     @endif
                 </div>

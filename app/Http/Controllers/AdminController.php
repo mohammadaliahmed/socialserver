@@ -15,7 +15,7 @@ class AdminController extends Controller
     public function admin()
     {
         $picArray = array();
-        $posts = Posts::orderBy('id', 'desc')->get()->take(100);
+        $posts = Posts::orderBy('id', 'desc')->get()->take(20);
         foreach ($posts as $post) {
             $post->user = User::find($post->user_id);
             if (str_contains($post->images_url, ',')) {
